@@ -73,7 +73,8 @@
 
   <p class="lead">
     <strong>제운해는 어떤 개인정보도 수집하지 않습니다.</strong><br>
-    앱에 인터넷 권한이 없어서, 사용자가 입력한 내용이 기기 밖으로 나갈 방법이 없습니다.
+    앱에 인터넷 권한이 없어서, 앱이 사용자의 내용을 어디로도 보내지 않습니다.
+    다만 안드로이드 자체의 백업 기능은 켜져 있습니다 &mdash; 아래 3번을 봐주세요.
   </p>
 
   <h2>1. 수집하는 정보</h2>
@@ -82,8 +83,8 @@
 
   <h2>2. 기기에 저장되는 것</h2>
   <p>
-    앱이 동작하려면 몇 가지를 기억해야 합니다. 이 값들은 <strong>사용자의 기기 안에만</strong>
-    저장되며 어디로도 전송되지 않습니다.
+    앱이 동작하려면 몇 가지를 기억해야 합니다. 이 값들은 <strong>사용자의 기기 안에</strong>
+    저장되며, 앱이 이를 어디로도 보내지 않습니다.
   </p>
   <table>
     <tr><th>저장 항목</th><th>용도</th></tr>
@@ -95,11 +96,28 @@
     <tr><td>고른 테마와 말투 배정</td><td>고른 화면과 말투를 다음에도 유지하기 위해</td></tr>
   </table>
   <p>
-    <strong>앱을 삭제하면 이 정보도 함께 사라집니다.</strong>
-    백업 서버가 없으므로 복구할 방법도 없습니다.
+    <strong>앱을 삭제하면 기기 안의 이 정보는 사라집니다.</strong>
+    다만 아래 3번의 백업이 남아 있으면 다시 설치할 때 되돌아올 수 있습니다.
   </p>
 
-  <h2>3. 사용하는 권한</h2>
+  <h2>3. 안드로이드 자동 백업</h2>
+  <p>
+    <strong>앱이 보내는 것은 없지만, 안드로이드가 보낼 수 있습니다.</strong>
+    안드로이드에는 앱 데이터를 사용자의 구글 계정으로 백업하는 기능이 있고,
+    제운해는 이 기능을 켜 둔 상태입니다. 폰을 바꾸거나 앱을 다시 설치했을 때
+    <strong>지금까지 쌓은 운동 기록이 따라오게</strong> 하기 위해서입니다.
+  </p>
+  <p>
+    이 백업은 <strong>사용자 본인의 구글 드라이브</strong>로 가며, 개발자는 그 내용을
+    볼 수 없고 받지도 않습니다. 드라이브 저장 용량도 차지하지 않습니다.
+    안드로이드 9 이상에서는 기기 잠금 비밀번호로 암호화되어 저장됩니다.
+  </p>
+  <p>
+    백업을 원하지 않으면 안드로이드 <em>설정 &rarr; Google &rarr; 백업</em>에서 끌 수 있습니다.
+    이미 올라간 백업까지 지우려면 같은 화면에서 이 앱의 백업 데이터를 삭제하면 됩니다.
+  </p>
+
+  <h2>4. 사용하는 권한</h2>
   <table>
     <tr><th>권한</th><th>왜 필요한가</th></tr>
     <tr><td>알림</td><td>운동 시각 알림을 보내기 위해. 이 권한이 없으면 앱의 핵심 기능이 동작하지 않습니다.</td></tr>
@@ -114,7 +132,7 @@
     사용자가 앱에서 직접 누른 기록으로만 판단합니다.
   </p>
 
-  <h2>4. 제3자 제공 및 광고</h2>
+  <h2>5. 제3자 제공 및 광고</h2>
   <p>
     데이터를 제3자에게 제공하거나 판매하지 않습니다.
     현재 버전에는 <strong>광고와 분석 도구가 들어 있지 않습니다.</strong>
@@ -123,18 +141,18 @@
     나중에 광고를 도입하게 되면 이 문서를 먼저 갱신하고, 앱 안에서도 안내한 뒤에 적용합니다.
   </p>
 
-  <h2>5. 만 14세 미만 아동</h2>
+  <h2>6. 만 14세 미만 아동</h2>
   <p>
     아동을 대상으로 하는 앱이 아니며, 아동을 포함한 누구에게서도 정보를 수집하지 않습니다.
   </p>
 
-  <h2>6. 방침 변경</h2>
+  <h2>7. 방침 변경</h2>
   <p>
     이 방침이 바뀌면 이 페이지의 최종 수정일이 갱신됩니다.
     중요한 변경이 있을 때는 앱 업데이트 설명에도 함께 적습니다.
   </p>
 
-  <h2>7. 문의</h2>
+  <h2>8. 문의</h2>
   <p>
     개인정보 관련 문의: <a href="mailto:leastmighty.dev@gmail.com">leastmighty.dev@gmail.com</a>
   </p>
@@ -143,14 +161,23 @@
     <h2>English summary</h2>
     <p>
       <strong>Jeunhae (제운해) collects no personal data.</strong>
-      The app has no internet permission, so nothing you enter can leave your device.
+      The app has no internet permission, so the app itself sends nothing anywhere.
+      Android&rsquo;s own backup is enabled, though &mdash; see below.
     </p>
     <p>
       Workout schedules, the activities you register, your workout records, your
-      journal entries and any nag lines you write yourself are stored only in local
-      storage on your device and are deleted when you uninstall the app. No accounts, no analytics, no ads, no third-party data sharing.
+      journal entries and any nag lines you write yourself are stored in local
+      storage on your device. No accounts, no analytics, no ads, no third-party data sharing.
       The app reads no health or fitness data &mdash; whether you worked out is
       recorded solely from what you tap in the app.
+    </p>
+    <p>
+      <strong>Android backup.</strong> Android can back this data up to your own
+      Google account so your records survive a new phone or a reinstall. It goes to
+      your own Google Drive &mdash; the developer never sees or receives it, and it
+      does not count against your Drive quota. You can turn it off in
+      <em>Settings &rarr; Google &rarr; Backup</em>. Uninstalling removes the copy on
+      your device; a backup may restore it if you reinstall.
     </p>
     <p>
       Permissions used: notifications, exact alarm, boot completed, and vibration
